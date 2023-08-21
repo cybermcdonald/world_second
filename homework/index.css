@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.backround{
+    background-color: #222;
+    width: 100%;   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hat{
+    width: 100px;
+    height: 100px;
+    background: gold;
+    border-radius: 50%;
+    transform: translateX(200px) translateY(-150px);
+}
+.bring{
+    width: 300px;
+    height: 300px;
+    background: darkorange;
+    border-radius: 200px 200px 50px 50px;
+    z-index: 10;
+}
+.main{
+    width: 100px;
+    height: 100px;
+    background-color:sienna ;
+    border-radius: 50%;
+    transform: translateX(-200px) translateY(150px);
+}
